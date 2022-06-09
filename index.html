@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <b><h1>Github Commands</h1></b>
+    <ul>
+        <h2>Configuring Git</h2>
+        <li>To login in git username :- git config --global user.name "username"</li>
+        <li>To login in git email :- git config --global user.email "useremail"</li>
+        <li>To see the username in git :- git config --global user.name</li>
+        <li>To see the email in git :- git config --global user.email</li>
+
+        <h2>Starting a repository</h2>
+        <li>To make git repository :- <b>git init</b></li>
+        <li>To see Status :- <b>git status</b></li>
+
+        <h2>Staging files</h2>
+        <li>To make a new file :- <b>touch filename.extension</b></li>
+        <li>To make changes :- After changes has been done use <b>git add filename.extension</b> or <b>git add .</b> for transferring all the files to staging area. This commnad is also used to add file into staging area and after that it will be commited.</li>
+        <li>To commit :- <b>git commit -m "message for commit"</b></li>
+
+        <h2>Git Structure</h2>
+        <img src="GitStages.png" alt="GitStages" height="450" width="800">
+        
+        <h2>Git Log Commands</h2>
+        <li>To see all the commits :- <b>git log</b></li>
+        <li>To rollback to <b>previous commits</b> :- <b>git checkout *hashcode*</b></li>
+
+        <h2>Git Checkout Commands</h2>
+        <li>To rollback to previous commit :- <b>git checkout --filename</b></li>
+
+        <h2>Pushing projects on Github</h2>
+        <li>Step 1:- First make a repository on Github.</li>
+        <li>Step 2:- Copy the Link of the repository by clicking on Code(the <b><span style="color: green;">green</span></b> button with a dropdown.)</li>
+        <li>Step 3:- Open Git Bash CMD and go to the folder with all the files.</li>
+        <li>Step 4:- Initialize the folder as Git repository using <b>git init</b></li>
+        <li>Step 5:- Now stage all the files which is needs to be commited. (To stage all the files use <b>git add .</b>) </li>
+        <li>Step 6:- Check the status using <b>git status</b> command.</li>
+        <li>Step 7:- Commit the files which are staged using <b>git commit -m "*Meaningful comments*"</b> command. </li>
+        <li>Step 8:- Type <b>git remote add origin *Link which you copied in Step 2*</b>.</li>
+        <li>Step 9:- Then push the files using <b>git push -u origin master</b>. You will be asked for your username and password for <a href="http://github.com">Github</a></li>
+
+        <h2>Pull Requests on Github</h2>
+    </ul>
+</body>
+</html>
