@@ -9,7 +9,27 @@
     src: url("Agutina400.otf") format("opentype");
 }
 
-.firstHead{
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bx-moon{
+    font-size: 1.5rem;
+}
+
+.change-theme{
+    cursor: pointer;
+    transition: .3s;
+}
+
+.change-theme:hover{
+    /* color: #130F40; */
+    color: rgb(12, 11, 11);
+}
+
+.logo{
     font-weight: bold;
 }
 
@@ -31,12 +51,12 @@
     background-color: #EA2027;
 }
 
-.logo{
+.logo-link{
     color: black;
     text-decoration: none;
 }
 
-.logo:hover{
+.logo-link:hover{
     color: #2F3640;
     transition: ease-in .2s;
 }
