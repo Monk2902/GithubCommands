@@ -30,3 +30,23 @@
 .cheat{
     background-color: #EA2027;
 }
+
+.logo{
+    color: black;
+    text-decoration: none;
+}
+
+.logo:hover{
+    color: #2F3640;
+    transition: ease-in .2s;
+}
+
+.post-link{
+    text-decoration: none;
+    color: #00D2D3;
+}
+.post-link:hover{
+    text-decoration: none;
+    /* color: #48DBFB; */
+    color: #4affff;
+}
