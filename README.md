@@ -20,4 +20,5 @@ The project is created using :-
 - [By Tech with Tim](https://www.youtube.com/watch?v=DVRQoVRzMIY)
 
 ### Documentation
-- [Official git documentation](https://github.com/harsh1x4/githubCommands.github.io/blob/main/git-official-documentation.pdf)
+- [Official git documentation](https://github.com/Monk2902/githubCommands.github.io/blob/main/git-official-documentation.pdf)
+- [Official git cheatsheet](https://github.com/Monk2902/githubCommands.github.io/blob/main/github-official-cheat-sheet.pdf)
