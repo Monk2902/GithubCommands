@@ -70,3 +70,40 @@
     /* color: #48DBFB; */
     color: #4affff;
 }
+
+.btn-container .btn {
+    text-decoration: none;
+    color: white !important;
+    padding: 8px 12px;
+    border-style: none;
+    border-radius: 10px;
+    transition: all ease .3s;
+}
+
+.btn-container .red {
+    background-color: #EA2027;
+}
+
+.btn-container .red:hover {
+    background-color: #e02127 !important;
+}
+
+.btn-container .blue {
+    background-color: #130F40;
+}
+
+.btn-container .blue:hover {
+    background-color: #23204d !important;
+}
+
+@media only screen and (max-width: 480px) {
+    .btn-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .btn-container .btn {
+        margin: 2px;
+    }
+}
