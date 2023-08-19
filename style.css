@@ -16,12 +16,20 @@
     --color-theme-icon: #eec413;
     --color-primary: #f1f1f1;
     --main-heading:#000000;
+    --post-link: #008888;
+    --post-link-hover: #007474;
+    --card-body-color: #000000;
+    --card-body-bg: #ffffff;
 }
 :root.theme--night{
     --body-background-color: #000000;
     --color-theme-icon: #e684af;
     --color-primary: #000000;
     --main-heading:#f5f5f5;
+    --post-link: #00D2D3;
+    --post-link-hover: #4affff;
+    --card-body-color: #ffffff;
+    --card-body-bg: #111111;
 }
 
 @font-face{
@@ -62,10 +70,6 @@ h1 span{
     cursor: pointer;
 }
 
-.cheat{
-    background-color: #EA2027;
-}
-
 .logo-link{
     color: var(--main-heading);
     text-decoration: none;
@@ -73,7 +77,7 @@ h1 span{
 }
 
 code{
-    color: #d63384;
+    color: #d63384 !important;
 }
 
 .logo-link:hover{
@@ -82,12 +86,13 @@ code{
 
 .post-link{
     text-decoration: none;
-    color: #00D2D3;
+    color: var(--post-link);
+    transition: all ease-in-out .2s;
 }
 .post-link:hover{
     text-decoration: none;
     /* color: #48DBFB; */
-    color: #4affff;
+    color: var(--post-link-hover);
 }
 
 .btn-container .btn {
@@ -125,6 +130,11 @@ code{
     .btn-container .btn {
         margin: 2px;
     }
+}
+
+.card-dark-mode{
+    background-color: var(--card-body-bg) !important;
+    color: var(--card-body-color) !important;
 }
 
 
