@@ -17,10 +17,20 @@
 <body class="m-2">
     <header>
         <nav class="nav">
-            <h1 class="logo pt-2"><a href="https://github.com/Monk2902/githubCommands.github.io.git"
-                    class="logo-link"><i class="fa-brands fa-github"></i></a> Github Commands</h1>
+            <h1 class="logo pt-2"><a href="https://git-scm.com/"
+                    class="logo-link"><i class="fa-brands fa-git-alt"></i></a><span>Git Commands</span></h1>
 
-            <i class='bx bx-moon change-theme' id="theme-button"></i>
+            <!-- <i class='bx bx-sun change-theme' id="theme-button"></i> -->
+            <div class="theme-toggle theme-toggle-js">
+                <span class="moon"></span>
+                <span class="sun"></span>
+                <small class="sun__ray"></small>
+                <small class="sun__ray"></small>
+                <small class="sun__ray"></small>
+                <small class="sun__ray"></small>
+                <small class="sun__ray"></small>
+                <small class="sun__ray"></small>
+            </div>
         </nav>
 
     </header>
@@ -30,8 +40,7 @@
                 <div class="card-body">
                     <h2 class="card-title">Configuring Git</h2>
                     <ul>
-                        <li>To login in git username :- <b><code>git config --global user.name "username"</code></b>
-                        </li>
+                        <li>To login in git username :- <b><code>git config --global user.name "username"</code></b></li>
                         <li>To login in git email :- <b><code>git config --global user.email "useremail"</code></b></li>
                         <li>To see the username in git :- <b><code>git config --global user.name</code></b></li>
                         <li>To see the email in git :- <b><code>git config --global user.email</code></b></li>
@@ -73,10 +82,12 @@
 
     <div class="card my-2 mx-1 text-bg-light">
         <div class="card-body">
-            <h2 class="card-title">Git Structure</h2>
+            <h2 class="card-title">Git Stages(Flow)</h2>
+            <!-- <img src="GitStages.png" alt="GitStages" class="img-fluid mb-2 mx-1" height="450" width="600"> -->
+            <img src="git3X.svg" alt="GitStages" class="img-fluid mb-2 mx-1" >
         </div>
     </div>
-    <img src="GitStages.png" alt="GitStages" class="img-fluid mb-2 mx-1" height="450" width="600">
+    <!-- <img src="GitStages.png" alt="GitStages" class="img-fluid mb-2 mx-1" height="450" width="600"> -->
 
     <!-- ==============================2nd Row=============================== -->
 
@@ -198,6 +209,13 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         crossorigin="anonymous"></script>
+    <script>
+        const darkMode = document.querySelector(".theme-toggle");
+        function darkify() {
+            document.documentElement.classList.toggle("theme--night");
+        }
+        darkMode.addEventListener("click", darkify);
+    </script>
 
 </body>
 
