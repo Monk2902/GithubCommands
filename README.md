@@ -2,7 +2,7 @@
 
 ![githubCommands.github.io](https://socialify.git.ci/Monk2902/githubCommands.github.io/image?description=1&descriptionEditable=https%3A%2F%2Fgithub.com%2FMonk2902%2FgithubCommands.github.io&font=Raleway&language=1&owner=1&pattern=Circuit%20Board&theme=Dark)
 
-[Webpage is Live🔴](https://harsha1x4.github.io/githubCommands.github.io/)
+[Webpage is Live🔴](https://harsh1xx4.github.io/Github-Commands/)
 
 This is just a Webpage with some of the basic and important commands of Github. 
 Enjoy using it.
@@ -11,6 +11,7 @@ Enjoy using it.
 The project is created using :- 
 * HTML
 * CSS
+* JS
 
 ### Some videos to know more about github
 - [By Kunal Kushwaha](https://www.youtube.com/watch?v=apGV9Kg7ics)
