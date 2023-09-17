@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 *{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: var(--font-fallback);
     box-sizing: border-box;
 }
 *,
@@ -20,6 +20,7 @@
     --post-link-hover: #007474;
     --card-body-color: #000000;
     --card-body-bg: #ffffff;
+    --font-fallback: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
 :root.theme--night{
     --body-background-color: #000000;
@@ -30,6 +31,7 @@
     --post-link-hover: #4affff;
     --card-body-color: #ffffff;
     --card-body-bg: #111111;
+    --font-fallback: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
 
 @font-face{
